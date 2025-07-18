@@ -507,7 +507,7 @@
                 chatHistory.push({ role: "user", parts: [{ text: prompt }] });
 
                 const payload = { contents: chatHistory };
-                const apiKey = ""; // API key will be provided by the Canvas environment
+                const apiKey = "AIzaSyCctP9lAubPtPPlWeg9larvSaMtkBEaZFU"; // API key will be provided by the Canvas environment
                 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
                 try {
